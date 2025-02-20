@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SprintCraft-Dev/static/css/main.ea8e242b.css",
+    "main.js": "/SprintCraft-Dev/static/js/main.2aa2b3c2.js",
+    "static/js/488.da877ce6.chunk.js": "/SprintCraft-Dev/static/js/488.da877ce6.chunk.js",
+    "static/media/backgroundimage.png": "/SprintCraft-Dev/static/media/backgroundimage.adb78bc761e8c95eb3ab.png",
+    "index.html": "/SprintCraft-Dev/index.html",
+    "main.ea8e242b.css.map": "/SprintCraft-Dev/static/css/main.ea8e242b.css.map",
+    "main.2aa2b3c2.js.map": "/SprintCraft-Dev/static/js/main.2aa2b3c2.js.map",
+    "488.da877ce6.chunk.js.map": "/SprintCraft-Dev/static/js/488.da877ce6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea8e242b.css",
+    "static/js/main.2aa2b3c2.js"
+  ]
+}
