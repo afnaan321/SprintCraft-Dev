@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar';
 import Centerbody from './components/center_body';
-// import Tile from './components/tile';
+// import Tile from './components/tile'; -- testing
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SignUp from "./components/signup";
 import Welcome from './components/welcome';
