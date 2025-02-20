@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* center_body.css */
+/* .tile-body-container {
+  @apply flex items-center justify-center min-h-96 scroll-py-2;
+} */
+.tile-body-container {
+    @apply flex items-center space-x-10 justify-center; /* Flex container with space between items */
+  }
+.tile-body-content {
+  @apply p-8 rounded-lg shadow-xl text-center max-w-sm bg-opacity-10 bg-white; /* White background with opacity */
+  width: 300px; 
+  height: 300px; 
+}
+
+.tile-body-content h1 {
+  @apply text-3xl font-extrabold text-slate-400 mb-4;
+}
+
+.tile-body-content p {
+  @apply text-lg text-slate-100;
+}

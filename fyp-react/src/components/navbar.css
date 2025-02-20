@@ -1,0 +1,31 @@
+/* Navbar.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbar container */
+.navbar {
+  @apply bg-gradient-to-r from-indigo-950 to-purple-600 text-white shadow-lg;
+}
+
+/* Navbar links */
+.navbar-logo { 
+  @apply text-2xl font-bold hover:text-gray-200;
+}
+.navbar-links {
+  @apply hidden md:flex space-x-6;
+}
+
+.navbar-link {
+  @apply hover:text-gray-200 transition duration-300;
+}
+
+/* Mobile menu button */
+.navbar-button {
+  @apply md:hidden text-gray-200 hover:text-white focus:outline-none;
+}
+
+/* Mobile menu icon */
+.navbar-icon {
+  @apply w-6 h-6;
+}

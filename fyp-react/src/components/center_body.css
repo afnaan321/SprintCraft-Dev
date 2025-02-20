@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* center_body.css */
+.center-body-container {
+    @apply flex items-center space-y-20 justify-center min-h-fit;
+  }
+  
+.center-body-content {
+@apply  p-8 rounded-xl space-y-10 text-center max-w-lg;
+}
+
+.center-body-content h1 {
+@apply text-4xl font-extrabold text-slate-300 mb-4;
+}
+
+.center-body-content p {
+@apply text-lg text-slate-300;
+}
+  

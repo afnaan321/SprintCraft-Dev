@@ -1,0 +1,57 @@
+/* Contact.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .Contact-container {
+    @apply min-h-screen bg-gradient-to-r from-indigo-950 to-purple-600 text-white p-8;
+  }
+
+  .Contact-header {
+    @apply text-5xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-purple-300;
+  }
+
+  .Contact-content-wrapper {
+    @apply max-w-4xl mx-auto bg-black/20 backdrop-blur-sm rounded-2xl p-8 shadow-2xl border border-purple-800/30;
+  }
+
+  .Contact-paragraph {
+    @apply text-lg leading-relaxed text-gray-200 mb-6;
+  }
+
+  .stats-container {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6 my-12;
+  }
+
+  .stat-card {
+    @apply text-center p-6 bg-black/30 rounded-xl border border-purple-800/30 hover:transform hover:scale-105 transition-all duration-300;
+  }
+
+  .stat-number {
+    @apply text-4xl font-bold text-purple-300 mb-2;
+  }
+
+  .stat-label {
+    @apply text-gray-300 text-sm;
+  }
+
+  .feature-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6 my-12;
+  }
+
+  .feature-card {
+    @apply p-6 bg-gradient-to-br from-purple-900/40 to-transparent rounded-xl border border-purple-800/30 
+    hover:border-purple-600/50 transition-all duration-300 hover:transform hover:scale-105;
+  }
+
+  .feature-title {
+    @apply text-xl font-semibold text-purple-300 mb-3;
+  }
+
+  .cta-button {
+    @apply px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full text-white font-semibold 
+    hover:from-indigo-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 
+    shadow-lg hover:shadow-xl;
+  }
+}
